@@ -1,0 +1,13 @@
+{
+  "name": "MigoSwap Default List",
+  "timestamp": "2021-03-17T09:56:23Z",
+  "version": {
+    "major": 2,
+    "minor": 10,
+    "patch": 0
+  },
+  "tags": {},
+  "logoURI": "https://exchange.migoswap.finance/images/pancakeswap.png",
+  "keywords": ["Migoswap", "default"],
+  "tokens": []
+}
