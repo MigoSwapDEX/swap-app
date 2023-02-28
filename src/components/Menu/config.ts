@@ -21,16 +21,16 @@ const config: MenuEntry[] = [
       },
     ],
   },
-  // {
-  //   label: 'Mines',
-  //   icon: 'FarmIcon',
-  //   href: 'https://briseswap.finance/#/farms',
-  // },
-  // {
-  //   label: 'Pools',
-  //   icon: 'PoolIcon',
-  //   href: 'https://briseswap.finance/#/pools',
-  // },
+  {
+    label: 'Farms',
+    icon: 'FarmIcon',
+    href: 'https://migoswap.org/#/farms',
+  },
+  {
+    label: 'Pools',
+    icon: 'PoolIcon',
+    href: 'https://migoswap.org/#/pools',
+  },
   // {
   //   label: 'Lottery',
   //   icon: 'TicketIcon',
@@ -95,36 +95,36 @@ const config: MenuEntry[] = [
   //   icon: 'IfoIcon',
   //   href: 'https://pancakeswap.finance/ifo',
   // },
-  // {
-  //   label: 'More',
-  //   icon: 'MoreIcon',
-  //   items: [
-  //     {
-  //       label: 'Contact',
-  //       href: 'https://t.me/brisepadco',
-  //     },
-  //     {
-  //       label: 'Voting',
-  //       href: 'https://voting.pancakeswap.finance',
-  //     },
-  //     {
-  //       label: 'Github',
-  //       href: 'https://github.com/Brisepad',
-  //     },
-  //     {
-  //       label: 'Docs',
-  //       href: 'https://docs.briseswap.finance',
-  //     },
-  //     {
-  //       label: 'Blog',
-  //       href: 'https://briseswap.medium.com/',
-  //     },
-  //     {
-  //       label: 'Merch',
-  //       href: 'https://pancakeswap.creator-spring.com/',
-  //     },
-  //   ],
-  // },
+  {
+    label: 'More',
+    icon: 'MoreIcon',
+    items: [
+      {
+        label: 'Contact',
+        href: 'hello@migoswap.org',
+      },
+      // {
+      //   label: 'Voting',
+      //   href: 'https://voting.pancakeswap.finance',
+      // },
+      // {
+      //   label: 'Github',
+      //   href: 'https://github.com/Brisepad',
+      // },
+      {
+        label: 'Docs',
+        href: 'https://migoswap.gitbook.io/migodoc/',
+      },
+      {
+        label: 'Blog',
+        href: 'https://medium.com/@migoswap',
+      },
+      // {
+      //   label: 'Merch',
+      //   href: 'https://pancakeswap.creator-spring.com/',
+      // },
+    ],
+  },
 ]
 
 export default config
