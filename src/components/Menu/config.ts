@@ -24,12 +24,12 @@ const config: MenuEntry[] = [
   {
     label: 'Farms',
     icon: 'FarmIcon',
-    href: 'https://migoswap.org/#/farms',
+    href: 'https://earn.migoswap.org/#/farms',
   },
   {
     label: 'Pools',
     icon: 'PoolIcon',
-    href: 'https://migoswap.org/#/pools',
+    href: 'https://earn.migoswap.org/#/pools',
   },
   // {
   //   label: 'Lottery',

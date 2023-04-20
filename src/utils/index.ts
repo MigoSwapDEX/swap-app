@@ -19,7 +19,7 @@ export function isAddress(value: any): string | false {
 
 
 const BSCSCAN_PREFIXES: { [chainId in ChainId]: string } = {
-  1115: '',
+  1116: '',
   56: '',
   97: 'testnet.'
 }

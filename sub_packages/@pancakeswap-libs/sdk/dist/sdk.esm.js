@@ -15,7 +15,7 @@ import IUniswapV2Pair from '@uniswap/v2-core/build/IUniswapV2Pair.json'
 var _SOLIDITY_TYPE_MAXIMA
 var ChainId
 ;(function (ChainId) {
-  ChainId[(ChainId['MAINNET'] = 1115)] = 'MAINNET'
+  ChainId[(ChainId['MAINNET'] = 1116)] = 'MAINNET'
   ChainId[(ChainId['BSCNET'] = 56)] = 'BSCNET'
   ChainId[(ChainId['BSCTESTNET'] = 97)] = 'BSCTESTNET'
 })(ChainId || (ChainId = {}))
@@ -33,8 +33,8 @@ var Rounding
   Rounding[(Rounding['ROUND_UP'] = 2)] = 'ROUND_UP'
 })(Rounding || (Rounding = {}))
 
-var FACTORY_ADDRESS = '0x298a3B9840C2be05f0f91832acdf670aB9a15a37'
-var INIT_CODE_HASH = '0xa217f05fc728de5d8f3073ab93a4dcaf21cbe75bcc9b3ba364d17769d65310cd'
+var FACTORY_ADDRESS = '0x91cE3Cf997CAD223654764b4338A92431997AFe9'
+var INIT_CODE_HASH = '0x0dfba0285fbfd28525d64d85b90b38c9bb164c6b8f5db320c06e6ab59312d945'
 var MINIMUM_LIQUIDITY = /*#__PURE__*/ JSBI.BigInt(1000) // exports for internal consumption
 
 var ZERO = /*#__PURE__*/ JSBI.BigInt(0)

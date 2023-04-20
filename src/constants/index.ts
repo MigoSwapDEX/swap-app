@@ -1,6 +1,6 @@
 import { ChainId, JSBI, Percent, Token, WETH } from '@pancakeswap-libs/sdk'
 
-export const ROUTER_ADDRESS = '0x4D7f3DC684f4E3Dd555D52A01C1FcFEfe626aA13'
+export const ROUTER_ADDRESS = '0xb5C03956c9a2aA8E7CC8A03f8a1338a4dd7b30fd'
 
 // a list of tokens by chain
 type ChainTokenList = {
@@ -11,9 +11,9 @@ type ChainTokenList = {
 // Fswap CA = 0x078D1b73bbc94C83bA2371A164761A35a66b8612
 // CAKE CA = 0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82
 
-export const CAKE = new Token(ChainId.MAINNET, '0xF26006408112be347c23FDBa03F7bC3566519655', 18, 'Bswap', 'BriseSwap Token')
+export const CAKE = new Token(ChainId.MAINNET, '0x676d1c682c861226443A1302885Cc595Fd2b0A50', 18, 'MIGO', 'Migoswap Token')
 
-export const WBNB = new Token(ChainId.MAINNET, '0x4b624638025e96c1e8b85201d17d2c328a5c939a', 18, 'WCORE', 'Wrapped Core')
+export const WBNB = new Token(ChainId.MAINNET, '0x40375C92d9FAf44d2f9db9Bd9ba41a3317a2404f', 18, 'WCORE', 'Wrapped CORE')
 // export const DAI = new Token(ChainId.MAINNET, '0x1AF3F329e8BE154074D8769D1FFa4eE058B1DBc3', 18, 'DAI', 'Dai Stablecoin')
 // export const BUSD = new Token(ChainId.MAINNET, '0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56', 18, 'BUSD', 'Binance USD')
 // export const BTCB = new Token(ChainId.MAINNET, '0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c', 18, 'BTCB', 'Binance BTC')

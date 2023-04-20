@@ -14,7 +14,7 @@
       "name": "Migoswap Token",
       "symbol": "MIGO",
       "address": "0xB76b0Eac05C94b7d5467399F2E193b0f8077ABD7",
-      "chainId": 1115,
+      "chainId": 1116,
       "decimals": 18,
       "logoURI": "https://dex.migoswap.org/images/coins/0xB76b0Eac05C94b7d5467399F2E193b0f8077ABD7.png"
     }

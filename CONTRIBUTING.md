@@ -18,7 +18,7 @@ Don't forget to setup your IDE with `eslint` and `prettier`.
 
 To change the BSC network from test net, modify the `REACT_APP_CHAIN_ID` value in `.env`.
 
-- MAIN NET ``
+- MAIN NET `1116`
 - TEST NET `1115`
 
 ## Tests
