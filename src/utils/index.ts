@@ -25,7 +25,7 @@ const BSCSCAN_PREFIXES: { [chainId in ChainId]: string } = {
 }
 
 export function getBscScanLink(chainId: ChainId, data: string, type: 'transaction' | 'token' | 'address'): string {
-  const prefix = `https://${BSCSCAN_PREFIXES[chainId] || BSCSCAN_PREFIXES[ChainId.MAINNET]}scan.test.btcs.network`
+  const prefix = `https://${BSCSCAN_PREFIXES[chainId] || BSCSCAN_PREFIXES[ChainId.MAINNET]}scan.coredao.org`
 
   switch (type) {
     case 'transaction': {
